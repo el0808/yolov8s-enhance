@@ -1,0 +1,7 @@
+path: ./  # 如果当前在项目根目录，则为点
+train: dataset/images/train
+val: dataset/images/val
+test: dataset/images/test  # 可选
+
+nc: 3
+names: ['oil', 'scratch', 'stain']  # 替换为你的类别名

@@ -1,0 +1,7 @@
+path: ./  # 如果当前在项目根目录，则为点
+train: augmented1/images/train
+val: augmented1/images/val
+test: augmented1/images/test  # 可选
+
+nc: 3
+names: ['oil', 'scratch', 'stain']  # 替换为你的类别名
