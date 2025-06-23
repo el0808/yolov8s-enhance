@@ -4,7 +4,7 @@ import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 def main():
     # 加载模型
-    model = YOLO('runs/detect/yolov8s-non-aug/weights/last.pt')# 替换为你的模型路径
+    model = YOLO('runs/detect/yolov8s-mbv4-se/weights/last.pt')# 替换为你的模型路径
 
     # 对 test 集进行评估
     metrics = model.val(data="dataset.yaml", split="test", save=False)
