@@ -17,7 +17,7 @@ def main():
         warmup_epochs=5,
         weight_decay=0.001,
         device=0,                # GPU编号，若无GPU可设为 'cpu'
-        name='yolov8s-se-test',
+        name='yolov8s',
         pretrained=False,
         auto_augment='',  # 主动传空增强器（彻底关闭）
         augment=True,

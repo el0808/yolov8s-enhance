@@ -6,8 +6,8 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 # ========== 路径设置 ==========
 input_image_dir = 'dataset/images/test'   # 原图目录
 input_label_dir = 'dataset/labels/test'   # 标签目录（YOLO格式）
-output_image_dir = 'augmented1/images/test'
-output_label_dir = 'augmented1/labels/test'
+output_image_dir = 'augmented/images/test'
+output_label_dir = 'augmented/labels/test'
 
 # ========== 创建输出目录 ==========
 os.makedirs(output_image_dir, exist_ok=True)
